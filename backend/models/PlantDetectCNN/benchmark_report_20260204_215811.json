@@ -1,0 +1,61 @@
+{
+  "timestamp": "2026-02-04T21:58:11.514724",
+  "model_info": {
+    "total_parameters": 2600806,
+    "input_shape": "(None, 256, 256, 3)",
+    "output_shape": "(None, 38)",
+    "num_classes": 38
+  },
+  "system_info": {
+    "cpu_count": 16,
+    "memory_gb": 15.29,
+    "gpu_available": false
+  },
+  "benchmark_results": {
+    "inference_speed": {
+      "single_image_time_ms": 118.995361328125,
+      "single_image_std_ms": 6.261160954443079,
+      "batch_performance": {
+        "1": {
+          "mean_per_image": 0.11846065521240234,
+          "std_per_image": 0.008115772249134614,
+          "throughput": 8.441621382280722
+        },
+        "4": {
+          "mean_per_image": 0.037841188907623294,
+          "std_per_image": 0.0014848427093788674,
+          "throughput": 26.42623101618631
+        },
+        "8": {
+          "mean_per_image": 0.02458239793777466,
+          "std_per_image": 0.0015853946855274028,
+          "throughput": 40.679513956746476
+        },
+        "16": {
+          "mean_per_image": 0.017992918193340302,
+          "std_per_image": 0.00036790521507486755,
+          "throughput": 55.57742158635106
+        },
+        "32": {
+          "mean_per_image": 0.015807279199361802,
+          "std_per_image": 0.002208499592138788,
+          "throughput": 63.261993881930906
+        }
+      },
+      "fps_single": 8.403688923995446
+    },
+    "memory_usage": {
+      "model_size_mb": 9.921287536621094,
+      "initial_memory_mb": 1192.3828125,
+      "inference_memory_mb": 1240.99609375,
+      "memory_increase_mb": 48.61328125
+    },
+    "robustness": {
+      "0.0": 1.0,
+      "0.1": 1.0,
+      "0.2": 0.9,
+      "0.3": 0.3,
+      "0.5": 0.1
+    }
+  }
+}
