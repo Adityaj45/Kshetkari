@@ -1,0 +1,17 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+ml_env/
+venv/
+env/
+ENV/
+
+# Environment variables (contains secrets/keys)
+.env
+
+# OS generated files
+.DS_Store
+Thumbs.db
