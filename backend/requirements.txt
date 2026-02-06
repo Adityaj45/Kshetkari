@@ -1,16 +1,11 @@
---extra-index-url https://download.pytorch.org/whl/cpu
 fastapi
 uvicorn
 python-multipart
-torch==2.5.1+cpu
-
-# Slimmed down ML libraries
-torchvision==0.17.0+cpu
-tensorflow-cpu==2.15.0
-
-# Helpers
 numpy
 joblib
 pillow
 pydantic
-
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.2.1+cpu
+torchvision==0.17.1+cpu
+tensorflow-cpu==2.15.0
