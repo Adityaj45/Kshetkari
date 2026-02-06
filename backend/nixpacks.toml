@@ -1,0 +1,6 @@
+[variables]
+    PYTHONUNBUFFERED = "1"
+    PIP_NO_CACHE_DIR = "off"
+
+[phases.setup]
+    nixPkgs = ["python311", "gcc"] # Keeps the environment lean
