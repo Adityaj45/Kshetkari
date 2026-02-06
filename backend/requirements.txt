@@ -1,12 +1,10 @@
-# Use the small version of FastAPI and the server
+--extra-index-url https://download.pytorch.org/whl/cpu
 fastapi
 uvicorn
 python-multipart
+torch==2.5.1+cpu
 
 # Slimmed down ML libraries
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.2.0
-python-multipart
 torchvision==0.17.0+cpu
 tensorflow-cpu==2.15.0
 
